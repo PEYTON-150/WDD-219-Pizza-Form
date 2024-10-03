@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://blue.butler.edu/~nreilly/class/pizzaForm.html#Home -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./Tony&#39;s Pizzeria_files/pizzastyles.css" type="text/css" rel="stylesheet">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony's Pizzeria</title>
+    <style>
+        body{
+            background-image: url(images/Tony.png),url(images/Redbackground.jpg);
+/*more tony!!!*/
+background-repeat: no-repeat, repeat;
+background-attachment: fixed;
+background-position: right bottom;
+
+        }
+        table{border:1px solid black;
+            border-collapse: collapse;
+
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+        main{
+background-color: #d9a86c;
+width: 60%;
+margin: 0 auto;
+border-radius: 5px;
+border: 1px solid black;
+        }
+        legend{
+            background-color: #bf1304;
+            color: white;
+            font-family: Arial;
+            text-shadow: 1px 1px 2px black;
+            height: 22px;
+width: 150px;
+border-radius: 5px;
+font-size: 90%;
+line-height: 20px;
+
+        }
+        fieldset{
+            background-color: rgba(255,255,255,0.3);
+            padding: 50px;
+            width: 90%;
+            line-height: 30px;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin: 0px auto 20px;
+            font-family: Arial;
+            font-size: 12pt;
+            background-image: url(images/pizza.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+
+        }
+h1{
+text-shadow: 4px 4px #d95204; font-family: Arial; font-weight: bold; font-size: 36px; color: white; 
+}
+
+h2{
+    font-size: 20px; color: #3e5902; font-family: Arial; position: relative; top: -15px;
+}
+h3{
+    color: black; font-family: Arial; font-weight: bold;
+}
+/* h3 incomplete*/
+
+
+
+    </style>
+</head>
+<body>
+
+<h1 align="center">Tony's Pizzeria</h1>
+<h2 align="center">Serving up the best pizza in town!</h2>
+
+<nav align="center">
+    <a href="https://blue.butler.edu/~nreilly/class/pizzaForm.html#Home">Home</a>
+    <a href="https://blue.butler.edu/~nreilly/class/pizzaForm.html#About">About</a>
+    <a href="https://blue.butler.edu/~nreilly/class/pizzaForm.html#Menu">Menu</a>
+    <a href="https://blue.butler.edu/~nreilly/class/pizzaForm.html#Deals">Deals</a>
+    <a href="https://blue.butler.edu/~nreilly/class/pizzaForm.html#Loco">Locations</a>
+    <a href="https://blue.butler.edu/~nreilly/class/pizzaForm.html#Contact">Contact Us</a>
+    
+    
+
+</nav>
+
+
+<div class="rBox">
+<div class="instructions">
+<h3 align="center">How it works: </h3>
+<ol>
+    <li>Take a look at our long list of toppings. We have everything from spicy Italian sausage to pepperoni.</li>
+    <li>Fill in your information below. Enter in your pizza informaiont... everything from the size, crust type, and any combination of toppings.</li>
+    <li>Enter in your personal and payment infromation. This allows us to deliver your pizza as quickly as possible.</li>
+    <li>Wait a few minutes for our driver to deliver your pizza... hot and fresh to your door.</li>
+
+
+</ol>
+
+
+
+
+</div>
+
+
+ 
+        
+        <table>
+            <tbody><tr>
+                <td colspan="5"><b>Available Options</b></td>
+            </tr>
+            <tr>
+            <td><b>Size And Crust</b></td>
+            <td><b>Cheese Only</b></td>
+            <td><b>Extra Toppings</b></td>
+        </tr>
+   
+ 
+
+        <tr>
+            <td>Medium Original</td>
+            <td>$8.99</td>
+            <td>$1.49</td>
+        </tr>
+        <tr>
+            <td>Large Original</td>
+            <td>$11.99</td>
+            <td>$1.59</td>
+        </tr>
+        <tr>
+            <td>Extra Large Original</td>
+            <td>$13.99</td>
+            <td>$1.99</td>
+        </tr>
+        <tr>
+            <td>Large Thin</td>
+            <td>$11.99</td>
+            <td>$1.59</td>
+        </tr>
+        </tbody></table>
+        
+        
+ 
+    
+    
+    <br>
+   
+        
+        <table>
+            <tbody><tr>
+                <td colspan="4"><b>Toppings</b></td>
+            </tr>
+        
+        
+        <tr>
+        <td colspan="2"><b>Meat</b></td>
+        <td colspan="2"><b>Veggies and Cheese</b></td>
+        </tr>
+        
+        
+            <tr>
+                  
+            <td>Perpperoni</td>
+            <td>Green Peppers</td>
+            
+            <td>Mushroom</td>   
+                
+      
+        </tr>
+         <tr><td>Spicy Sausage</td>
+        
+         <td>Jalapeno Peppers</td>
+         
+         <td>Black Olives</td>
+           
+ 
+            
+        </tr>
+        <tr> 
+            <td>Sausage</td>
+            <td>Onions</td>
+            <td>Extra Cheese</td>
+           
+           
+            
+            
+        </tr>
+        
+        </tbody></table>
+   
+    <form action="https://blue.butler.edu/~nreilly/class/submitForm.php" method="POST">
+       <fieldset id="cusinfo">
+        <legend>Customer Information</legend>
+           <label> First Name: </label> 
+        <input type="text" name="firstName" id="firstName"><br>
+        <label> Last Name: </label> 
+        <input type="text" name="lastName" id="lastName"><br>
+        <label for="address"> Address:</label>
+        <input type="text" name="address" id="address"><br>
+        <label for="city"> City:</label>
+        <input type="text" name="city" id="city"><br>
+        <label for="zip"> Zip:</label>
+        <input type="text" name="zip" id="zip"><br>
+        <label for="phone"> Telephone:</label>
+        <input type="text" name="phone" id="phone">
+       </fieldset>
+    
+    <fieldset>
+        <legend>Pizza Information</legend>
+    
+    
+        <p>Type of Crust:</p>
+        <select name="crust">
+            <option value="thin">Thin Crust</option>
+            <option value="handTossed">Hand-Tossed</option>
+            <option value="deepDish">Deep Dish</option>
+        
+        
+        </select>
+        
+        <p>Which topping would you like on your pizza?</p>
+        <div class="ingredients">
+
+        <input type="checkbox" name="toppings" value="pepperoni" id="pepperoni"><label for="pepperoni">Pepperoni</label><br>
+        
+        
+        <input type="checkbox" name="toppings" value="sSausage" id="sSausage"><label for="sSausage">Spicy Sausage</label><br>
+        
+        <input type="checkbox" name="toppings" value="sausage" id="sausage"><label for="sausage">Sausage</label><br>
+    </div>
+    <div class="ingredients">
+       
+        
+        <input type="checkbox" name="toppings" value="gpeppers" id="gpeppers"><label for="gpeppers">Green Peppers</label><br>
+        
+        <input type="checkbox" name="toppings" value="jpeppers" id="jpeppers"><label for="jpeppers">Jalapeno Peppers</label><br>
+                
+        <input type="checkbox" name="toppings" value="onion" id="onion"><label for="onion">Onions</label><br>
+        
+    </div>
+    <div class="ingredients">     
+   
+        <input type="checkbox" name="toppings" value="extraCheese" id="extraCheese"><label for="extraCheese">Extra Cheese</label><br>
+
+        <input type="checkbox" name="toppings" value="bOlives" id="bOlives"><label for="bOlives">Black Olives</label><br>
+        
+        <input type="checkbox" name="toppings" value="bpMush" id="bpMush"><label for="bpMush">Mushrooms</label><br>
+        
+    </div>
+        
+        
+        <p>Special Instructions:</p>
+        <textarea name="Instructions" placeholder="Please Enter in your special instructions"></textarea>
+    </fieldset>
+    
+    
+    <fieldset>
+        <legend>Payment Information</legend>
+        
+        <p>How would you like to pay for your pizza?</p> <input type="radio" name="payment" value="cash" id="cash"><label for="cash">Cash</label>
+        <input type="radio" name="payment" value="check" id="check"><label for="check">Check</label>
+        <input type="radio" name="payment" value="ccard" id="ccard"><label for="ccard">Credit Card</label>
+        <input type="password" name="ccardNumber">
+        
+        <p>Would you like the driver to call before leaving the store?</p>
+        <input type="radio" name="call" value="yes" id="yes"> <label for="yes">Yes</label>
+        
+        <input type="radio" name="call" value="no" id="no" checked="checked"><label for="no">No</label></fieldset></form>
+        
+        
+        <input type="submit" value="Order Pizza" id="pizzaButton">
+    
+    
+    
+    
+</div>
+
+</body></html>
